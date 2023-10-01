@@ -7,29 +7,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="/styles.css">
 </head>
+
 <body>
-    <h1 id="montitre">MON TITRE</h1>
-    <h1 class="mytitle"> 1er titre</h1>
-    <h1 class="mytitle"> 2eme titre</h1>
-    <h1 class="mytitle"> 3eme titre</h1>
 
-    <button onclick="MasuperFunction()">MON SUPER BUTTTON</button>
-    <button id="Mybtn">mon deuxième button</button>
-
-    
-  <script>
-     function MasuperFunction(){
-        alert("hello world");
-        let Titre = document.getElementById("montitre");
-        Titre.innerHTML =  "hello ce texte est en JS";
-     }
-     let Mysecondbutton =document.getElementById("Mybtn")
-     Mysecondbutton.addEventListener("click", MasuperFunction)
-    </script>
 
 
 
     <header>
+        <h1 id="montitre">MON TITRE</h1>
         <nav>
             <ul>
                 <li>Acceuil</li>
@@ -43,11 +28,26 @@
         <section id="Acceuil">Acceuil</section>
         <section id="Works">Works</section>
         <section id="Contact">Contact</section>
+
+       
+        <h1 class="mytitle"> 1er titre</h1>
+        <h1 class="mytitle"> 2eme titre</h1>
+        <h1 class="mytitle"> 3eme titre</h1>
+    
+        <button onclick="MasuperFunction()">MON SUPER BUTTTON</button>
+        <button id="Mybtn">mon deuxième button</button>
+    
     </main>
 
     <footer>
         &copy;2023
     </footer>
+
+
+    <script src="./Monscriptjava.js">
+
+    </script>
+
 </body>
 
 </html>
