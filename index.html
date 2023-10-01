@@ -6,13 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/styles.css">
-
 </head>
 <body>
     <h1 id="montitre">MON TITRE</h1>
     <h1 class="mytitle"> 1er titre</h1>
     <h1 class="mytitle"> 2eme titre</h1>
     <h1 class="mytitle"> 3eme titre</h1>
+
+    <button onclick="MasuperFunction()">MON SUPER BUTTTON</button>
+    <button id="Mybtn">mon deuxième button</button>
+
+    
+  <script>
+     function MasuperFunction(){
+        alert("hello world");
+        let Titre = document.getElementById("montitre");
+        Titre.innerHTML =  "hello ce texte est en JS";
+     }
+     let Mysecondbutton =document.getElementById("Mybtn")
+     Mysecondbutton.addEventListener("click", MasuperFunction)
+    </script>
+
 
 
     <header>
